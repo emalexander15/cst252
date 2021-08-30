@@ -1,0 +1,35 @@
+body {
+  background-color: #FFF5EE;
+  font-family: "Playfair Display", "Didot", "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 42px;
+  color: #4169E1;
+  font-style: italic;
+}
+
+p {
+  font-size: 22px;
+  color: #4169E1;
+  text-indent: 20px;
+}
+
+div {
+  text-align: center;
+  border: double;
+  border-width: thick;
+  border-spacing: 10px;
+  border-color: #4169E1;
+  padding: 25px;
+}
+
+img {
+  width: 25%;
+  border: double;
+  border-width: 5px;
+  border-color: #4169E1;
+  display: inline-block;
+  margin: 30px 30px;
+  /* NOTE: https://css-tricks.com/forums/topic/creating-space-between-text-and-images/ code for display and margin */
+}
