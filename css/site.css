@@ -1,0 +1,76 @@
+body {
+  font-family: "Garamond", serif;
+  background-color: #FAF0E6;
+  color: #FAF0E6;
+  padding: 25px;
+  font-size: 115%;
+  text-align: center;
+  letter-spacing: 1px;
+
+}
+
+h1, h2, h3 {
+  font-family: "Garamond", serif;
+  letter-spacing: 15px;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 10px #FAF0E6;
+}
+
+div#content {
+  border: solid 15px #6a4015;
+  padding: 50px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+div#aboutme {
+  padding: 50px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #6a4015;
+  color: #FAF0E6;
+}
+
+div#labs {
+  padding: 50px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #6a4015;
+  color: #FAF0E6;
+}
+
+div#image {
+  background-color: #6a4015;
+  width: 445px;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #FAF0E6;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+img:hover {
+  transform: scale(1.3);
+}
