@@ -10,14 +10,14 @@ myTransport = [" Car", " Uber", " Walking", " Airplane"];
 
 // Declare an Object //
 myMainRide = {
-  make: "Jeep",
-  model: "Compass",
-  color: "White",
-  year: 2021,
+  Make: "Jeep",
+  Model: "Compass",
+  Color: "White",
+  Year: 2021,
 }
 
 // Output Variables //
 
 document.writeln("My Transportation: ", myTransport, "</br");
 document.writeln("My Main Ride: <pre>",
-    JSON.stringfly(myMainRide, null, '\t'), "</pre>");
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");
