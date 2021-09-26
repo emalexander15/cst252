@@ -35,3 +35,16 @@ h3 {
   letter-spacing: 1px;
   text-transform: capitalize;
 }
+
+
+a {
+    text-decoration: none;
+    color: #FAF0E6;
+    background: #6a4015;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}

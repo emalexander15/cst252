@@ -23,3 +23,15 @@ h1, h2, h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
 }
+
+a {
+    text-decoration: none;
+    color: #FAF0E6;
+    background: #6a4015;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
