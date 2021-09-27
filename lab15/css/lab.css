@@ -15,7 +15,6 @@ body {
   font-size: 115%;
   text-align: center;
   letter-spacing: 0.5px;
-
 }
 
 h1, h2, h3 {
@@ -34,13 +33,14 @@ img {
 }
 
 a {
-    text-decoration: none;
-    color: #FAF0E6;
-    background: #6a4015;
-    padding: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FAF0E6;
+  background: #6a4015;
+  padding: 5px;
 }
 
 a:hover {
-    text-decoration: underline;
-    text-decoration-style: wavy;
+  text-decoration: underline;
+  text-decoration-style: double;
 }
