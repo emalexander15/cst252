@@ -7,6 +7,12 @@ div#content {
   margin-right: auto;
 }
 
+div#results {
+  border: solid 3px #6a4015;
+  padding: 15px;
+}
+
+
 body {
   font-family: "Garamond", serif;
   background-color: #FAF0E6;
