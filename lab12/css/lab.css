@@ -44,3 +44,31 @@ a:hover {
   text-decoration: underline;
   text-decoration-style: double;
 }
+
+#challenge-btn {
+  background-color: #C0A094;
+  color: white;
+}
+
+#problems-btn {
+  background-color: #A98E84;
+  color: white;
+}
+
+#results-btn {
+  background-color: #997F76;
+  color: white;
+}
+
+.beigetext {
+  color: #C3B2A1;
+}
+
+.big {
+  font-size: 85px;
+}
+
+.highlight {
+  background: #6a4015;
+  color: #C3B2A1;
+}
