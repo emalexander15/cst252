@@ -7,6 +7,11 @@ div#content {
   margin-right: auto;
 }
 
+div#hogwarts {
+  border: solid 2px #6a4015;
+}
+
+
 body {
   font-family: "Garamond", serif;
   background-color: #FAF0E6;
