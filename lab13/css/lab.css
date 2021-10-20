@@ -7,8 +7,8 @@ div#content {
   margin-right: auto;
 }
 
-div#hogwarts {
-  border: solid 2px #6a4015;
+div#bratz {
+  border: solid 5px #6a4015;
 }
 
 
@@ -29,12 +29,11 @@ h1, h2, h3 {
 }
 
 img {
-  width: 550px;
+  width: 900px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: solid 10px #FAF0E6;
 }
 
 a {
