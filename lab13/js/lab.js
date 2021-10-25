@@ -5,7 +5,7 @@
  * License: Public Domain
  **/
 
- // Return Gryffindor, Ravenclaw, Slytherin, and Hufflepuff
+ // Return Bratz Doll names
  // depending on length mod 4
  function sortingHat(str) {
    len = str.length;
