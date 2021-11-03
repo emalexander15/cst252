@@ -3,26 +3,123 @@
 <div id="content">
 <head>
 	<title>Lab 17: Object-Oriented Design</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="../lab17/css/lab.css">
+	<script src="js/lab.js" defer> </script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
-  <br>
-  <br>
-    <h1>Lab 17: Object-Oriented Design</h1>
-    <p></p>
-  <br>
-    <h1>Problems</h1>
-    <p></p>
-  <br>
-    <h1>Results</h1>
-    <p></p>
-  <br>
-  <br>
-  <br>
-    <a href="../index.html">back to my homepage</a>
-  <br>
-  <br>
+<br>
+<br>
+	<h1>Lab 17: Object-Oriented Design</h1>
+	<div id="chall">
+		<p>The purpose of this lab was to modify lab 16 through the JavaScript code
+		to use classes instead of prototypes.</p>
+	</div>
+<br>
+	<div id="prob">
+	<h1> Problems</h1>
+		<p>I encountered no problems during this lab as I am familiar with classes.</p>
+</div>
+<br>
+	<div id="result">
+	<h1>Results</h1>
+		<p>My results are below!</p>
+		<div id="jeep">
+		<img src="../lab17/img/jeep.JPG">
+		</div>
+<br>
+</div>
+    <div id="output"> </div>
+<br>
+<br>
+<br>
+	<div id="oop">
+	<h1>OOP: Hangman</h1>
+		<h3>1. Understand the Problem</h3>
+			<li>Think of a word or phrase</li>
+			<li>Draw the lines</li>
+			<li>Have a friend(s) guess 1 letter at a time</li>
+			<li>Every incorrect score add a body part</li>
+			<li>Guess until correct or stick figure is completed</li>
+<br>
+		<h3>2. Pseudocode the High Level Approach</h3>
+	<div id="two">
+		<pre><code>Set up the game initially
+	Think of a word or phrase
+	Draw the number of lines corresponding to the letters
+Start the game loop
+	Ask friend(s) to give letters
+	Write correct letters on provided spaces
+If the letter is wrong
+	Begin drawing the stick figure
+	Draw a body part for every incorrect letter
+If the game should end
+	Display the proper victory
+Else
+	Keep looping with new letters until phrase or
+	figure completed
+			</pre></code>
+	</div>
+		<h3>3. Assign Actions to Objects</h3>
+		<div id="two">
+		<pre><code>Set up the game initially [Hangman]
+	Think of a word or phrase [Player]
+	Draw the number of lines corresponding to the letters [Board]
+Start the game loop [Hangman]
+	Ask friend(s) to give letters [Player]
+	Write correct letters on provided spaces [Board]
+If the letter is wrong [Board]
+	Begin drawing the stick figure [Player]
+	Draw a body part for every incorrect letter [Player]
+If the game should end [Hangman]
+	Display the proper victory [Board]
+Else
+	Keep looping with new letters until phrase or
+	figure completed [Player]
+			</pre></code>
+		</div>
+		<h3>4. Make Javascript-ish Pseudocode</h3>
+		<div id="two">
+			<pre><code>
+// Controls the game play class Hangman
+
+    // initialize
+       // set up the board
+       // assign the starting player
+       // starting player assigns word or phrase
+
+    // play
+        // loop infinitely
+        // call letters
+        // correct letters put on lines
+        // incorrect letters draw stick figure parts
+        // loop
+
+    // game_over
+        // victory
+        // loss
+
+    // victory
+        // IF board says phrase correctly
+        // a victory_phrase
+            // display a victory message
+
+    // fail
+	// IF stick figure is completed
+	// a loss_phrase
+	   // display a losing message
+					</pre></code>
+		</div>
+</div>
+<br>
+<br>
+<br>
+	<p style="text-align:left;"><a href="../index.html">back to my homepage</a>
+	<span style="float:right;"><a href="../lab10/js/lab.js">javascript source</a>
+<br>
+<br>
+<br>
+</div>
 </main>
 </body>
 </html>
