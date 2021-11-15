@@ -6,7 +6,7 @@
  **/
 
  // Pick an URL from API
- var targetUrl = "https://dog.ceo/api/breeds/image/random";
+ var targetUrl = "https://thecocktaildb.com/api/json/v1/1/random.php";
 
  function doAjaxStuff() {
  	// Using the core $.ajax() method
