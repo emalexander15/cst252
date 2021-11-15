@@ -23,7 +23,8 @@
    // If the request succeeds
    .done(function( data ) {
        alert("Success!");
-       $("#output").html(data);
+       console.log(data);
+       $("#output").html("<pre>" + JSON.stringify(data, null, 2) + "</pre>");
    })
    // If the request fails
    .fail(function( xhr, status, errorThrown ) {

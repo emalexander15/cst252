@@ -2,6 +2,7 @@
 <html>
 <div id="content">
 <head>
+	<img src="../lab19/img/sign.gif">
 	<title>Lab 19: AJAX</title>
 	<link rel="stylesheet" type="text/css" href="../lab19/css/lab.css">
 	<script src="js/lab.js" defer> </script>
@@ -14,30 +15,22 @@
     <p>The purpose of this lab is to experiment with jQuery, AJAX, and APIs.</p>
   <br>
     <h1>Problems</h1>
-    <p>I ran into countless problems. I have been trying to figure out why the
-		API I inputted (url) will not load information on my page when it still says
+    <p>I ran into countless problems. I was trying to figure out why the
+		API I inputted (url) would not load information on my page when it still said
 		"success" when clicking the button. I looked into different methods, went on
 	  RapidAPI and signed up, and looked at the creator's notes. It may have
 		to do with a code, but I selected the free use one and even used the code
-		suggested.</p>
+		suggested. After speaking to Wes, I now understand I needed a separate stringify
+	  for JSON since it was formatted through there and not plain text.</p>
   <br>
     <h1>Results</h1>
-    <p>Unfortunaely I do not have results. The button says success but does not
-		show random cocktail concoctions from this url:
-		<br>
-		<br>
-		<a>https://www.thecocktaildb.com/api/json/v1/1/random.php.</a></p>
-		<br>
-		<br>
+    <p>Click the button below to find your next cocktail concoction!</p>
 		<button id="activate">
-		Press me!
+		Bottoms Up!
 		</button>
-
 		<div id="output">
 		</div>
-
-		<img src="../lab19/img/cocktails.jpg">
-
+		<img src="../lab19/img/cocktails.gif">
   <br>
 	<br>
   <br>
