@@ -34,6 +34,6 @@
  }
 
  // When a user clicks the button, use a jQuery AJAX call to fetch output from the numbers API
- $("#butt").click(doAjaxStuff)
+ $("#activate").click(doAjaxStuff)
 
  // Insert the output in the output div
