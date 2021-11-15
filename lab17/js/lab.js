@@ -1,4 +1,11 @@
-// New class method
+/**
+ * Author:    Emma Alexander <emalexander@csumb.edu>
+ * Created:   11.3.2021
+ *
+ * License: Public Domain
+ **/
+
+ // New class method
 class Vehicle {
   constructor(make, model, year, color, extras, name) {
     this.make = make;
