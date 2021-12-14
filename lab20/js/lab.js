@@ -23,7 +23,7 @@
  .done(function(data) {
    console.log(data);
    var imageUrl = data.image;
-   var imageHtml = "<img src='" + imageURL + "'>";
+   var imageHtml = "<img src='" + URL + "'>";
    console.log(imageUrl);
    $("#output").html(imageHtml);
  })
