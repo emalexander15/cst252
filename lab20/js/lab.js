@@ -8,9 +8,6 @@
  // Pick an URL from API
  URL = "https://coffee.alexflipnote.dev/random";
 
- // Click button
- $('#activate').click(getimg);
-
  function getimg() {
    $.ajax({
      // endpoint
@@ -18,6 +15,9 @@
      // type
      type: "GET",
  })
+
+ // Click button
+ $('#activate').click(getimg);
 
  // if succeeds
  .done(function(data) {
